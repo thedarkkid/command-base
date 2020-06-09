@@ -16,12 +16,12 @@ namespace CommandBase.Data.Repositories
         }
         public IEnumerable<Command> GetAllCommands()
         {
-            return _context.Commands.ToList()
+            return _context.Commands.ToList();
         }
 
         public Command GetCommandById(int id)
         {
-            throw new System.NotImplementedException();
+            return _context.Commands.FirstOrDefault(p => p.id==id);
         }
     }
 }

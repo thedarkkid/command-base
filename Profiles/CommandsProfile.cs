@@ -9,6 +9,7 @@ namespace CommandBase.Profiles
         public CommandsProfile()
         {
             CreateMap<Command, CommandReadDTO>();
+            CreateMap<CommandCreateDTO, Command>();
         }
     }
 }

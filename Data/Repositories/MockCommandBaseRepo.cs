@@ -6,6 +6,11 @@ namespace CommandBase.Data.Repositories
 {
     public class MockCommandBaseRepo : ICommandBaseRepo
     {
+        public void CreateCommand(Command cmd)
+        {
+            throw new System.NotImplementedException();
+        }
+
         public IEnumerable<Command> GetAllCommands()
         {
             var commands = new List<Command>
@@ -22,6 +27,11 @@ namespace CommandBase.Data.Repositories
         public Command GetCommandById(int id)
         {
             return new Command{id=0, HowTo="Boil sumn", Line="Boil Water", Platform="Kettle & Pan"};
+        }
+
+        public bool SaveChanges()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

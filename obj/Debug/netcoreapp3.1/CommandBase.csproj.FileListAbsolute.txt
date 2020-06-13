@@ -56,3 +56,5 @@ C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\Command
 C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\CommandBase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\CommandBase\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\CommandBase\obj\Debug\netcoreapp3.1\CommandBase.csproj.CopyComplete
+C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\CommandBase\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\SHINIGAMI-ALFSABAH\Documents\Workspace\Dev\C#\Tutorial Projects\CommandBase\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

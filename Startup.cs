@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using CommandBase.Data.Contexts;
 using CommandBase.Data.Interfaces;
 using CommandBase.Data.Repositories;
@@ -31,6 +32,8 @@ namespace CommandBase
         {
             services.AddDbContext<CommandBaseContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("CommandBaseConnection")));
             services.AddControllers();
+
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddScoped<ICommandBaseRepo, SqlCommandBaseRepo>();
         } 
 
